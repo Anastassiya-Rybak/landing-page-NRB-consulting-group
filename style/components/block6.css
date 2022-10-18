@@ -1,0 +1,105 @@
+.consultation {
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-for-consultation {
+    margin-right: 40px;
+}
+.text-part-for-consultation {
+    margin-right: 40px;
+}
+.text-part-for-consultation h4 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 64px;
+    color: #202020;
+}
+.text-part-for-consultation hr {
+    background-color: #220959;
+    width: 68px;
+    height: 2px;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+.text-part-for-consultation:hover hr {
+    width: 90%;
+    transition: .4s;
+}
+.text-part-for-consultation p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.information-for-consultation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.information-for-consultation div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-bottom: 45px;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #BAC1C5;;
+}
+.information-for-consultation div label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #202020;
+    margin-bottom: 15px;
+}
+.information-for-consultation div input {
+    border: none;
+}
+.information-for-consultation div input::-moz-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8f9192ba;
+}
+.information-for-consultation div input::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8f9192b8;
+}
+.button-with-transcription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-with-transcription button {
+    background: #220959;
+    border-radius: 30px;
+    padding: 22px 30px 20px;
+    margin-right: 27px;
+    width: 200px;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn-to-consultation:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.button-with-transcription  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #727272;
+}
+.consultation img {
+    width: 562px;
+    height: 412px;
+    margin-left: 30px;
+    box-shadow: -30px 30px 0 #FAFAFA;
+}

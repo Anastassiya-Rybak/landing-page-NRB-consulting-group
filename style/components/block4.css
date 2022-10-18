@@ -1,0 +1,60 @@
+.our-advantages {
+    margin-top: 74px;
+}
+.text-part-our-advantages h4 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 64px;
+    color: #202020;
+}
+.text-part-our-advantages hr {
+    background-color: #220959;
+    width: 68px;
+    height: 2px;
+    margin: 0 0 50px 0;
+    text-align: left;
+}
+.text-part-our-advantages:hover hr {
+    width: 100%;
+    transition: .4s;
+}
+.option-part-our-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+.option-of-our-advantages {
+    background-image: url(../../images/svg/backIn4block.svg);
+    background-repeat: no-repeat;
+    width: calc(29% - 30px);
+    height: 148px;
+    margin-bottom: 23px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.option-of-our-advantages img {
+    position: absolute;
+    left: 7%;
+}
+.text-part-option-our-advantages {
+    position: absolute;
+    margin-left: 35%;
+}
+.text-part-option-our-advantages h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #202020;
+    margin-bottom: 10px;
+}
+.text-part-option-our-advantages p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #202020;
+}

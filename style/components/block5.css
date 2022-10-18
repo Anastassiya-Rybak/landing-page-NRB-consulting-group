@@ -1,0 +1,54 @@
+.our-partners {
+    margin-top: 74px;
+}
+.text-part-our-partners h4 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 64px;
+    color: #202020;
+}
+.text-part-our-partners hr {
+    background-color: #220959;
+    width: 68px;
+    height: 2px;
+    margin: 0 0 50px 0;
+    text-align: left;
+}
+.text-part-our-partners:hover hr {
+    width: 100%;
+    transition: .4s;
+}
+.partners-of-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.partner {
+    position: relative;
+    width: calc(33% - 30px);
+}
+.partner img {
+    width: 100%;
+}
+.text-part-in-partner-cart {
+    background-color: #353439;
+    color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    padding-bottom: 3px;
+}
+.text-part-in-partner-cart p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 30px;
+}
+.text-part-in-partner-cart span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 30px;
+}

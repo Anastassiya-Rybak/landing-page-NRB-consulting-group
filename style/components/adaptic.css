@@ -1,0 +1,271 @@
+@media screen and (max-width: 1433px) {
+    .contact-number__no_adaptic_style {
+        display: none;
+    }
+    .contact-number__adaptic_style {
+        display: block;
+    }
+    .adress-number__adaptic_style {
+        display: block;
+    }
+    .adress-number__no_adaptic_style {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .about-company {
+        align-items: center;
+        justify-items: center;
+    }
+    .about-company__img {
+        width: 50%;
+    }
+    .about-company img {
+        margin-left: 15px;
+        box-shadow: -15px 15px 0 #FAFAFA;    
+    }
+    .card-with-discriptions {
+        width: calc(50% - 10px);
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .about-company__img {
+        width: 40%;
+    }
+    .text-info-about-company {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .contact-number__adaptic_style,
+    .adress-number__adaptic_style,
+    .mail{
+        font-size: 12px;
+    }
+    .text-part-option-our-advantages {
+        margin-left: 50%;
+    }
+    
+}
+@media screen and (max-width: 990px) {
+    .header-info {
+        display: none;
+    }
+    .messenger-icons-for-adaptic-header {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .burger-menu-for-adaptic {
+        display: block;
+    }
+    .about-company__img {
+        display: none;
+    }
+    .text-info-about-company {
+        width: 100%;
+    }
+    .card-with-discriptions {
+        width: 100%;
+    }
+    .option-of-our-advantages {
+        width: calc(48% - 30px);
+    }
+    .partner {
+        width: calc(33% - 15px);
+    }
+    .text-part-in-partner-cart p{
+        font-size: 18px;
+    }
+    .consultation__img {
+        display: none;
+    }
+    .contact {
+        left: 28%;
+    }
+}
+@media screen and (max-width: 757px) {
+    .header-conteiner {
+        padding: 0;
+    }
+    .logo-header {
+        margin-top: 25px;
+    }
+    .block-main-content h1 {
+        line-height: 64px;
+        font-size: 54px;
+    }
+    .block-main-content p {
+        font-size: 18px;
+    }
+    .contact {
+        left: 10%;
+    }
+    .option-of-our-advantages {
+        width: 100%;
+    }
+    .text-part-option-our-advantages {
+        margin-left: 25%;
+    }
+    .contact {
+        width: 392px;
+        height: 412px;
+    }
+    .contact div span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+        letter-spacing: -1px;
+    }
+    .text-part-in-partner-cart p {
+        font-size: 16px;
+        margin-left: 10px;
+        line-height: 16px;
+    }
+    .text-part-in-partner-cart span{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .messenger-icons-for-adaptic-header {
+        padding-bottom: 10px;
+    }
+    .burger-menu-for-adaptic {
+        margin-top: 10px;
+    }
+    .block-main-content h1 {
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .text-part-in-partner-cart p {
+        font-size: 10px;
+        line-height: 2px;
+    }
+    .text-part-in-partner-cart span{
+        font-size: 8px;
+        line-height: 2px;
+    }
+    .contact {
+        width: 80%;
+        height: 352px;
+    }
+    .contact h4 {
+        font-size: 24px;
+    }
+    .contact h5 {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .contact p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .contact div {
+        margin-bottom: 10px;
+    }
+    .contact div span {
+        font-size: 10px;
+        line-height: 14px;
+    }
+        
+
+}
+@media screen and (max-width: 390px) {
+    .block-main-content button {
+        width: 80%;
+        height: 60px;
+        line-height: 20px;
+    }
+    .text-info-about-company h4 {
+        font-size: 40px;
+        line-height: 42px;
+        margin-top: 10px;
+    }    
+    .text-info-about-company p {
+        line-height: 24px;
+    }
+    .digital-indicators {
+        width: 100%;
+    }
+    .digital-data {
+        margin-right: 10px;
+    }
+    .digital-data span:first-child {
+        font-size: 18px;
+        line-height: 14px;
+        letter-spacing: 2px;
+    }
+    .digital-data span:last-child {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .text-part-our-advantages h4 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .form-for-consultation,
+    .text-part-for-consultation {
+        margin-right: 0px;
+    }
+
+
+    
+}
+@media screen and (max-width: 350px) {
+    .block-main-content h1,
+    .text-part-our-advantages h4,
+    .text-info-about-company h4,
+    .text-part-our-services h4,
+    .text-part-for-consultation h4 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .text-part-option-our-advantages {
+        margin-left: 0;
+    }
+    .option-of-our-advantages img {
+        display: none;
+    }
+    .partners-of-company {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .partner {
+        width: 100%;
+    }
+    .text-part-in-partner-cart p{
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .text-part-in-partner-cart span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .information-for-consultation div label {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .information-for-consultation div input::-moz-placeholder,
+    .information-for-consultation div input::-webkit-input-placeholder {
+        font-size: 8px;
+        line-height: 10px;
+    }    
+    .button-with-transcription {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-for-consultation,
+    .text-part-for-consultation {
+        margin-right: 0px;
+    }
+    .button-with-transcription button {
+        margin-bottom: 10px;
+    }
+    
+    
+}

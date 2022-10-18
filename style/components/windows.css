@@ -1,0 +1,105 @@
+.consultation-modal-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 2;
+}
+.modal-window-consultation-content {
+    width: 500px;
+    height: 320px;
+    background-color: #220959;
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+.close1 {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+}
+.close1:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.close1:before, .close1:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 25px;
+    width: 2px;
+    background-color: rgb(254, 254, 254);
+}
+.close1:before {
+    transform: rotate(45deg);
+}
+.close1:after {
+    transform: rotate(-45deg);
+}
+.modal-window-consultation-content h3 {
+    margin: 10px 10px 35px 10px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: aliceblue;
+}
+.modal-window-consultation-content input {
+    width: 70%;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 5px auto 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.modal-window-consultation-content input:first-child {
+    background-image: url(../../images/png/44948.png) no-repeat center left;
+}
+.modal-window-consultation-content input:last-child {
+    background-image: url(../../images/png/481320.png) no-repeat center left;
+}
+
+.modal-window-consultation-content button:last-child {
+    width: 50%;
+    background: #fd6d14;
+    box-shadow: rgb(253 109 20 / 30%);
+    border: 1px solid #220959;
+    border-radius: 10px;
+    height: 50px;
+    transition: all .3s;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.modal-window-consultation-content button:last-child:hover {
+    opacity: 0.7;
+}
+.modal-window-consultation-content button:last-child:active {
+    /* transform: translateX(3px) translateY(2px); */
+    width: 48%;
+    height: 45px;
+    font-size: 14px;
+    transition: 0.4s;
+}

@@ -1,0 +1,36 @@
+.up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    width: 65px;
+    height: 50px;
+
+    background: none;
+    border: none;
+}
+.up i {
+    font-size: 64px;
+    opacity: 0.7;
+    color: #220959;
+}
+.up i:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+.dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content-1 ul li {
+    color: black;
+    font-size: 16px;
+    padding: 12px 16px;
+}
+#card-with-discriptions-1:hover .dropdown-content-1 {
+    display: block;
+}

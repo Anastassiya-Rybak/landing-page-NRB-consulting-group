@@ -1,0 +1,15 @@
+.background-wrapper {
+    background-image: url(../../images/png/Background1block.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-conteiner, .block-main-content, .about-company, 
+.our-services, .our-advantages, .our-partners, .consultation {
+    width: 80%;
+    margin: 0 auto;
+}
+.block-main-content button:hover,
+.messengers img:hover,
+.header-info-wrapper nav a:hover {
+    opacity: 0.5;
+}

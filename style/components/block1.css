@@ -1,0 +1,53 @@
+.block-main-content {
+    padding-bottom: 30px;
+}
+.block-main-content h1 {
+    margin: 132px 0 17px;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 84px;
+    color: #220959;
+    width: 100%;
+
+}
+.block-main-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #202020;
+    margin: 17px 0 34px 0; 
+}
+.block-main-content button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #220959;
+    border-radius: 60px;
+    width: 342px;
+    height: 64px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #220959;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #220959;
+}
+.messengers {
+    margin-top: 126px;
+}
+.messengers a {
+    width: 32px;
+    text-decoration: none;
+}
+.messengers img {
+    margin-right: 20px;
+    width: 32px;
+    height: 30px;
+}

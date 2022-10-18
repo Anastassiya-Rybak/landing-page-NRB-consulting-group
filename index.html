@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fe9b72a4c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="style/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="background-wrapper">
+            <header>
+                <div class="header-conteiner">
+                    <hr class="hr-before">
+                    <img class="logo-header" id="logo-header" src="images/svg/Logo 1.svg" alt="">
+                    <div class="header-info-wrapper">
+                        <div class="header-info">
+                            <div class="contact-number">
+                                <img src="images/svg/number-header.svg" alt="Контактный номер">
+                                <p class="contact-number__no_adaptic_style">
+                                    <a class="contact-number__href" href="tel:+77172252060">+7 (7172) 25-20-60</a> 
+                                    / 
+                                    <a class="contact-number__href" href="tel:+77084252060">+7 (708) 425-20-60</a> 
+                                </p>
+                                <p class="contact-number__adaptic_style">
+                                    <a class="contact-number__href" href="tel:+77172252060">+7 (7172) 25-20-60</a> 
+                                    <br> 
+                                    <a class="contact-number__href" href="tel:+77084252060">+7 (708) 425-20-60</a> 
+                                </p>
+                            </div>
+                            <div class="adress">
+                                <img src="images/svg/location-header.svg" alt="Адрес компании">
+                                <p class="adress-number__no_adaptic_style">г. Нур-Султан, ул. Ж.Нажимеденова 20</p>
+                                <p class="adress-number__adaptic_style">г. Нур-Султан, <br>
+                                    ул. Ж.Нажимеденова 20</p>
+                            </div>
+                            <div class="mail">
+                                <img src="images/svg/mail-header.svg" alt="Почта">
+                                <a class="mail__href" href="mailto:info@nrb-consulting.kz">info@nrb-consulting.kz</a>
+                            </div>
+                        </div>
+                        <div class="messenger-icons-for-adaptic-header">
+                            <div class="messenger-icons-for-adaptic-header-wrapper">
+                                <img src="images/svg/number-header.svg" alt="Контактный номер">
+                                <img src="images/svg/location-header.svg" alt="Адрес компании">
+                                <img src="images/svg/mail-header.svg" alt="Почта">
+                            </div>
+                        </div>
+                        <nav>
+                            <a href="#about_company">О компании</a>
+                            <a href="#our_service">Услуги</a>
+                            <a href="#our_adventage">Преимущества</a>
+                            <a href="#contacts">Контакты</a>
+                        </nav>
+                        <div class="burger-menu-for-adaptic">
+                            <i class="fa-solid fa-bars fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div class="block-main-content">
+                    <h1>Комплексный <br>
+                        консалтинг</h1>
+                    <p>Мы поможем Вашему бизнесу достичь успеха!</p>
+                    <button onclick="consult()">получить консультацию</button>
+                    <div class="messengers">
+                        <a href="https://ru-ru.facebook.com/advokatpro001/" target="_blank">
+                            <img src="images/svg/Facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/insta_advokat/" target="_blank">
+                            <img src="images/svg/Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://t.me/Lawread" target="_blank">
+                            <img src="images/svg/Telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+            </section> 
+            <section class="modal-windows">
+                <div class="consultation-modal-window" id="consultation-modal-window">
+                    <div class="modal-window-consultation-content">
+                        <h3>Оставьте свои контакты и мы свяжемся с Вами</h3>
+                        <span onclick="closeModal()" id="close1" class="close1"></span>
+                        <input type="text" name="" id="" placeholder="Как Вас зовут?">
+                        <input type="number" name="" id="" placeholder="Номер телефона для связи">
+                        <button>отправить</button>
+                    </div>    
+                </div>
+            </section>
+        </div>
+        <main>
+            <div class="about-company">
+                <div class="text-info-about-company" id="about_company">
+                    <h4>NRB Consulting Group</h4>
+                    <hr>
+                    <p>
+                        NRB Consulting Group объединяет высококвалифицированных специалистов широкого профиля, имеющих опыт работы на руководящих должностях в органах прокуратуры, финансовой полиции, юстиции и судейском корпусе. <br><br>
+                        Именно поэтому – наши сотрудники владеют уникальным опытом и квалификацией, чтобы находить законные решения в запутанных и, казалось бы неразрешимых ситуациях.
+                    </p>
+                    <div class="digital-indicators">
+                        <div class="digital-data">
+                            <span>9</span>
+                            <span>Профессионалов широкого профиля</span>
+                        </div>
+                        <div class="digital-data">
+                            <span>18 лет</span>
+                            <span>Средний юридический стаж каждого</span>
+                        </div>
+                        <div class="digital-data">
+                            <span>162 года</span>
+                            <span>Совокупный стаж работы</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-company__img">
+                    <img src="images/png/img-2-block.png" alt="Щфис компании">
+                </div>
+            </div>
+            <div class="our-services" id="our_service">
+                <div class="text-part-our-services">
+                    <h4>
+                        Наши услуги
+                    </h4>
+                    <hr>
+                </div>
+                    <div class="services-of-company">
+                        <div class="card-with-discriptions" id="card-with-discriptions-1">
+                            <img src="images/svg/service1.svg" alt="">
+                            <span>Бесплатные консультации во всех областях права</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="dropdown-content-1">
+                            <ul>
+                                <li>- Первичное рассмотрение вопроса, получение необходимой информации;</li>
+                                <li>- Предварительный прогноз перспектив по Вашему делу;</li>
+                                <li>- Определение стоимости оказания услуг (в случае необходимости).</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service2.svg" alt="">
+                            <span>Гражданское право и процесс</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service3.svg" alt="">
+                            <span>Административное право и процесс</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img class="specific-img" src="images/svg/service4.svg" alt="">
+                            <span>Уголовное право и процесс</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service5.svg" alt="">
+                            <span>Нотариальные услуги</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service6.svg" alt="">
+                            <span>Коллекторские услуги</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service7.svg" alt="">
+                            <span>Консалтинг и аутсорсинг <br> управления проектами</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service8.svg" alt="">
+                            <span>Спичрайтинг</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service9.svg" alt="">
+                            <span>Налоговое право</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service10.svg" alt="">
+                            <span>Трудовое право</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service11.svg" alt="">
+                            <span>Корпоративное право</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service12.svg" alt="">
+                            <span>Договорное право</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service13.svg" alt="">
+                            <span>Интеллектуальное право</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                        <div class="card-with-discriptions">
+                            <img src="images/svg/service14.svg" alt="">
+                            <span>Иммиграционное право</span>
+                            <img src="images/svg/arrow-right-figma.svg" alt="">
+                        </div>
+                    </div>
+            </div>
+            <div class="our-advantages" id="our_adventage">
+                <div class="text-part-our-advantages">
+                    <h4>
+                        Наши преимущества
+                    </h4>
+                    <hr>
+                </div>
+                <div class="option-part-our-advantages">
+                    <div class="option-of-our-advantages">
+                        <img src="images/svg/advant1.svg" alt="">
+                        <div class="text-part-option-our-advantages">
+                            <h5>Широкий опыт</h5>
+                            <p>Мы имеем уникальный опыт в целом ряде отраслей</p>
+                        </div>
+                    </div>
+                    <div class="option-of-our-advantages">
+                        <img src="images/svg/advant2.svg" alt="">
+                        <div class="text-part-option-our-advantages">
+                            <h5>надежность</h5>
+                            <p>Мы берем ответственность за результат нашей работы</p>
+                        </div>
+                    </div>
+                    <div class="option-of-our-advantages">
+                        <img src="images/svg/advant3.svg" alt="">
+                        <div class="text-part-option-our-advantages">
+                            <h5>гибкость</h5>
+                            <p>Наша команда всегда открыта для новых идей</p>
+                        </div>
+                    </div>
+                    <div class="option-of-our-advantages">
+                        <img src="images/svg/advant4.svg" alt="">
+                        <div class="text-part-option-our-advantages">
+                            <h5>Экспертность</h5>
+                            <p>Мы реализовали более 1000 успешных проектов</p>
+                        </div>
+                    </div>
+                    <div class="option-of-our-advantages">
+                        <img src="images/svg/advant5.svg" alt="">
+                        <div class="text-part-option-our-advantages">
+                            <h5>честность</h5>
+                            <p>Интересы клиентов для нас важнее собственной выгоды</p>
+                        </div>
+                    </div>
+                    <div class="option-of-our-advantages">
+                        <img src="images/svg/advant6.svg" alt="">
+                        <div class="text-part-option-our-advantages">
+                            <h5>качество</h5>
+                            <p>Высокое качество – наша главная задача</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-partners">
+                <div class="text-part-our-partners">
+                    <h4>
+                        Наши партнеры
+                    </h4>
+                    <hr>
+                </div>
+                <div class="partners-of-company slider">
+                    <div class="partner">
+                        <img src="images/png/tanatarov.png" alt="Танатаров Ж.К.">
+                        <div class="text-part-in-partner-cart">
+                            <p>Танатаров Ж.К.</p>
+                            <span>Адвокат</span>
+                        </div>
+                    </div>
+                    <div class="partner">
+                        <img src="images/png/keldenov.png" alt="Келденов Р.К.">
+                        <div class="text-part-in-partner-cart">
+                            <p>Келденов Р.К.</p>
+                            <span>Нотариус</span>
+                        </div>                        
+                    </div>
+                    <div class="partner">
+                        <img src="images/png/sabitova.png" alt="Сабитова С.Т.">
+                        <div class="text-part-in-partner-cart">
+                            <p>Сабитова С.Т.</p>
+                            <span>Бизнес-тренер</span>
+                        </div>
+                    </div>
+                    <div class="partner">
+                        <img src="images/png/keldenov.png" alt="Келденов Р.К.">
+                        <div class="text-part-in-partner-cart">
+                            <p>Келденов Р.К.</p>
+                            <span>Нотариус</span>
+                        </div>                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="consultation">
+                <div class="form-for-consultation">
+                    <div class="text-part-for-consultation">
+                        <h4>
+                            Получите консультацию
+                        </h4>
+                        <hr>
+                        <p>Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. Вам будет необходимо предоставить.</p>
+                    </div>
+                    <form class="information-for-consultation">
+                        <div class="">
+                            <label for="">Ваше имя</label>
+                            <input type="text" placeholder="Иван Иванов">
+                        </div>
+                        <div class="">
+                            <label for="">Ваш телефон</label>
+                            <input type="tel" placeholder="+7 ( )">
+                        </div>
+                        <div class="">
+                            <label for="">Ваш email</label>
+                            <input type="email" placeholder="mail@mail.com">
+                        </div>
+                        <div class="">
+                            <label for="">Ваш комментарий</label>
+                            <input type="text" placeholder="(необязательно)">
+                        </div>
+                    </form>
+                    <div class="button-with-transcription">
+                        <button class="btn-to-consultation">отправить</button>
+                        <p>Нажимая кнопку "Отправить" я даю своё согласие на обработку моих персональных данных </p>
+                    </div>
+                </div>
+                <img class="consultation__img" src="images/png/img-6-block.png" alt="">
+            </div>
+            <div class="map-contact">
+                <div class="contact" id="contacts">
+                        <h4>
+                            Контакты
+                        </h4>
+                        <hr>
+                        <h5>NRB Consulting Group</h5>
+                        <p>Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. Вам будет необходимо предоставить </p>
+                        <div>
+                            <img src="images/svg/map-1.svg" alt="">
+                            <span>г. Нур-Султан, ул. Ж.Нажимеденова 20</span>
+                        </div>
+                        <div>
+                            <img src="images/svg/map-2.svg" alt="">
+                            <span>
+                                <a class="contact__a" href="tel:+77172252060">+7 (7172) 25-20-60</a> 
+                                / 
+                                <a class="contact__a" href="tel:+77084252060">+7 (708) 425-20-60</a> 
+                            </span>
+                        </div>
+                        <div>
+                            <img src="images/svg/map-3.svg" alt="">
+                            <span>
+                                <a class="contact__a" href="mailto:info@nrb-consulting.com">info@nrb-consulting.com</a> 
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div>
+                <button class="up">
+                    <a href="#logo-header">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </a>
+                </button>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/slider.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

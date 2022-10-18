@@ -1,0 +1,67 @@
+.text-part-our-services h4 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 64px;
+    color: #202020;
+}
+.text-part-our-services hr {
+    background-color: #220959;
+    width: 68px;
+    height: 2px;
+    margin: 0 0 50px 0;
+    text-align: left;
+}
+.text-part-our-services:hover hr {
+    width: 100%;
+    transition: .4s;
+}
+.services-of-company {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-with-discriptions {
+    width: calc(33% - 9px);
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #A8A9AD;
+    padding: 26px 15px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    box-sizing: border-box;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202020;
+}
+.card-with-discriptions:hover {
+    color: aliceblue;
+    background-color: #220959;
+}
+.card-with-discriptions:hover img{
+    filter: brightness(0) invert(1);
+}
+.card-with-discriptions img:first-child {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+.card-with-discriptions:hover img:last-child {
+    transform: rotate(90deg);
+    transition: .4s;
+}
+.card-with-discriptions .specific-img {
+    filter: hue-rotate(70deg);
+}
+/* .services-of-company div:nth-child(4) img {
+    filter: brightness(0) invert(1);
+} */
+.card-with-discriptions span {
+    width: 95%;
+}
+

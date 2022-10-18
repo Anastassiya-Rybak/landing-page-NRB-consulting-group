@@ -1,0 +1,110 @@
+.header-conteiner {
+    display: flex;
+    align-items: center;
+    padding: 0 75px;
+    position: relative;
+}
+.logo-header {
+    margin: 6px 36px auto 0;
+    width: 20%;
+}
+.header .hr-before {
+    position: absolute;
+    left: 0;
+    top: 78px;
+    background: #202020;
+    opacity: 0.6;
+    width: 3%;
+    height: 1px;
+}
+.header-info-wrapper {
+    margin-top: 28px;
+    width: 82%;
+}
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #202020;
+}
+.header-info div {
+    display: flex;
+    align-items: center;
+}
+.messenger-icons-for-adaptic-header {
+    padding-bottom: 22px;
+    border-bottom: 1px solid #202020;
+}
+.contact-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.contact-number__adaptic_style {
+    display: none;
+}
+.contact-number a{
+    color: #333333;
+}
+.contact-number__href:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.adress, .mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #202020;
+}
+.adress-number__adaptic_style {
+    display: none;
+}
+.mail__href {
+    color: #202020;
+}
+.mail__href:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.contact-number img, .adress img {
+    height: 23px;
+    margin-right: 5px;
+}
+.mail img {
+    margin-right: 5px;
+}
+.messenger-icons-for-adaptic-header {
+    display: none;
+}
+.messenger-icons-for-adaptic-header img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.messenger-icons-for-adaptic-header-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #202020;
+    margin-right: 45px;
+}
+.burger-menu-for-adaptic {
+    display: none;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.burger-menu-for-adaptic i:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
