@@ -1,6 +1,11 @@
+.hide {
+    display: none;
+}
+
 .background-wrapper {
     background-image: url(../../images/png/Background1block.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .header-conteiner, .block-main-content, .about-company, 
