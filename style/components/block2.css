@@ -13,9 +13,9 @@
 .text-info-about-company h4 {
     font-weight: 500;
     font-size: 42px;
-    line-height: 64px;
+    line-height: 1.5em;
     color: #202020;
-    margin-top: 35px;
+    margin-top: 0.85em;
 }
 .text-info-about-company hr {
     background-color: #220959;
@@ -31,36 +31,41 @@
 .text-info-about-company p {
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 1.6em;
     color: #333333;
-    margin-bottom: 22px;
+    margin-bottom: 1.5em;
     width: 95%;
 }
+
 .digital-indicators {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 97%;
+    row-gap: 7%;
 }
+
 .digital-data {
     display: flex;
     flex-direction: column;
-    margin-right: 28px;
 }
+
 .digital-data span:first-child {
     font-weight: 700;
     font-size: 24px;
-    line-height: 24px;
-    letter-spacing: 2px;
+    line-height: 1em;
+    letter-spacing: 0.09em;
     color: #220959;
-    margin-bottom: 12px;
+    margin-bottom: 0.5em;
 }
+
 .digital-data span:last-child {
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5em;
     color: #333333;
 }
+
 .about-company img {
     width: 100%;
     margin-left: 30px;

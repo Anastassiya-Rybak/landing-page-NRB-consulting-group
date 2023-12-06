@@ -1,8 +1,8 @@
 .text-part-our-services h4 {
     font-weight: 500;
     font-size: 42px;
-    line-height: 64px;
     color: #202020;
+    line-height: 1.5em;
 }
 
 .text-part-our-services hr {
@@ -47,7 +47,7 @@
 
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.4em;
     color: #202020;
 }
 
