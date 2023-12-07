@@ -2,16 +2,3 @@
     display: flex;
     gap: 50px;
 }
-.slick-prev {
-    left: 30px;
-    z-index: 2;
-}
-/* .slick-arrow::before {
-    color: black ;
-} */
-.slick-next {
-    right: 30px;
-    z-index: 2;
-}
-.slick-arrow {
-}

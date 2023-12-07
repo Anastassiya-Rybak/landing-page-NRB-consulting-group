@@ -8,6 +8,7 @@
 
     background: none;
     border: none;
+    z-index: 5;
 }
 .up i {
     font-size: 64px;

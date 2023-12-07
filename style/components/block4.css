@@ -19,42 +19,41 @@
     transition: .4s;
 }
 .option-part-our-advantages {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 15px;
     /* overflow: hidden; */
 }
 .option-of-our-advantages {
     background-image: url(../../images/svg/backIn4block.svg);
     background-repeat: no-repeat;
-    width: calc(29% - 30px);
+    width: calc(33% - 10px);
     height: 148px;
-    margin-bottom: 23px;
-    padding-left: 25px;
+    padding-left: 1.5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
+    overflow: hidden;
 }
-.option-of-our-advantages img {
-    position: absolute;
-    left: 7%;
-}
+/* .option-of-our-advantages img {
+    
+} */
 .text-part-option-our-advantages {
-    position: absolute;
-    margin-left: 35%;
+    width: 70%;
 }
 .text-part-option-our-advantages h5 {
     font-weight: 500;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1em;
     text-transform: uppercase;
     color: #202020;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 .text-part-option-our-advantages p {
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.2em;
     color: #202020;
 }

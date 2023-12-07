@@ -26,6 +26,9 @@
         box-shadow: -15px 15px 0 #FAFAFA;    
     }
 
+    .option-of-our-advantages {
+        width: calc(48% - 5px);
+    }    
 }
 @media (max-width: 1200px) {
     .contact-number,
@@ -41,15 +44,16 @@
     .text-info-about-company {
         width: 60%;
     }
+
+    .slick-track {
+        gap: 10px !important;
+    }
 }
 @media (max-width: 1040px) {
     .contact-number__adaptic_style,
     .adress-number__adaptic_style,
     .mail{
         font-size: 12px;
-    }
-    .text-part-option-our-advantages {
-        margin-left: 50%;
     }
 
     .card-with-discriptions,
@@ -85,9 +89,7 @@
     .card-with-discriptions {
         width: 100%;
     }
-    .option-of-our-advantages {
-        width: calc(48% - 30px);
-    }
+
     .partner {
         width: calc(33% - 15px);
     }
@@ -125,10 +127,9 @@
     
     .option-of-our-advantages {
         width: 100%;
+        padding-left: 3%;
     }
-    .text-part-option-our-advantages {
-        margin-left: 25%;
-    }
+
     .contact {
         width: 392px;
         height: 412px;
@@ -182,14 +183,19 @@
         font-size: 42px;
         line-height: 40px;
     }
-    .text-part-in-partner-cart p {
-        font-size: 10px;
-        line-height: 2px;
+
+    .information-for-consultation div,
+    .btn-to-consultation {
+        width: 100% !important;
+        margin-right: 0 !important;
     }
-    .text-part-in-partner-cart span{
-        font-size: 8px;
-        line-height: 2px;
+
+    .button-with-transcription {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
     }
+
     .contact {
         width: 80%;
         height: 352px;
@@ -253,8 +259,24 @@
     }
     .text-part-our-advantages h4 {
         font-size: 35px;
-        line-height: 42px;
     }
+
+    .option-of-our-advantages {
+        height: 100px;
+    }
+
+    .option-of-our-advantages img {
+        width: 15%;
+        margin-left: 5%;
+    }
+
+    .text-part-option-our-advantages h5 {
+        font-size: 20px;
+    }
+    .text-part-option-our-advantages p {
+        font-size: 12px;
+    }
+
     .form-for-consultation,
     .text-part-for-consultation {
         margin-right: 0px;
@@ -269,12 +291,6 @@
     .text-part-for-consultation h4 {
         font-size: 34px;
         line-height: 38px;
-    }
-    .text-part-option-our-advantages {
-        margin-left: 0;
-    }
-    .option-of-our-advantages img {
-        display: none;
     }
     .partners-of-company {
         display: flex;
