@@ -72,12 +72,34 @@
         display: block;
     }
 
+    .header-info-wrapper {
+        position: relative;
+    }
+
     nav {
-        display: none;
+        position: absolute;
+        overflow: hidden;
+        margin: 0;
+        padding-top: 4.5%;
+        padding-left: 25%;
+        padding-bottom: 5%;
+        width: 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 10px;
+        background-color: #ffffff00;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+
+    nav a {
+        width: 100%;
     }
 
     .burger-menu-for-adaptic {
         display: block;
+        position: relative;
+        z-index: 6;
     }
 
     .about-company__img {

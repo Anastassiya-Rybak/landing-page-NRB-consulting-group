@@ -2,6 +2,11 @@
     display: none;
 }
 
+.open {
+    width: 100%;
+    background-color: #fff;
+}
+
 .background-wrapper {
     background-image: url(../../images/png/Background1block.png);
     background-repeat: no-repeat;
